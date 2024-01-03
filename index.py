@@ -16,6 +16,7 @@ class MeuLutador:
         else:
             print("Escolha novamente o tipo do seu lutador: guerreiro, mago, monge ou ninja.")
             self.tipo = input("Seu lutador será guerreiro, mago, monge ou ninja?: ")
+            self.atacar()
 
 
 print("Seja bem-vindo à arena da Terrargucci!")
